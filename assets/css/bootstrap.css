@@ -5783,3 +5783,10 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.my_info{
+  background: gray;
+  width: 50%;
+  height: 90%;
+  margin-left: 25%;
+  position: block;
+}
