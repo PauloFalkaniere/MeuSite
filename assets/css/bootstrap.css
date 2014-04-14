@@ -277,7 +277,8 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-image: url("../img/fundo.jpg");
 }
 input,
 button,
@@ -5783,10 +5784,17 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-.my_info{
+.my_info_list{
+  list-style-type:none; 
   background: gray;
   width: 50%;
   height: 90%;
   margin-left: 25%;
   position: block;
+  text-align: left;
+}
+.picture_profile{
+  width: 90px;
+  height: 90px;
+  background-image: url("../img/profile.jpg"); 
 }
