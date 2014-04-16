@@ -570,6 +570,7 @@ a.bg-danger:hover {
 }
 ul,
 ol {
+  list-style: none;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -5589,6 +5590,19 @@ button.close {
   .carousel-indicators {
     bottom: 20px;
   }
+  .my_info_list{
+    text-align: center;
+  }
+ .personal-panel{ 
+    width: 100%;
+    height: 190%;
+    background: black;
+  }
+  .picture_profile{
+    width: 90px;
+    height: 90px;
+    background-image: url("../img/profile.jpg"); 
+  }
 }
 .clearfix:before,
 .clearfix:after,
@@ -5784,17 +5798,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-.my_info_list{
-  list-style-type:none; 
-  background: gray;
-  width: 50%;
-  height: 90%;
-  margin-left: 25%;
-  position: block;
-  text-align: left;
-}
-.picture_profile{
-  width: 90px;
-  height: 90px;
-  background-image: url("../img/profile.jpg"); 
-}
